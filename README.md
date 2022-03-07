@@ -54,8 +54,7 @@ As an avid reader, I want to search for new books to read so that I can keep a l
 * Express
 
 # Installation
-Run using the github URL: https://jcastillo9.github.io/book-search-engine
-
+Run using the github URL: 
 <img src="/src/assets/images/homepage.png"/>
 <img src="/src/assets/images/navbar.png"/>
 <img src="/src/assets/images/contactpage.png"/>
