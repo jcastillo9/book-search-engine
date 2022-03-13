@@ -5,6 +5,8 @@ const db = require('./config/connection');
 const { authMiddleware } = require('./utils/auth');
 const { typeDefs, resolvers } = require('./schemas');
 
+const uri = process.env.MONGO_DB_URI || 'mongodb+srv://Ulan:123@cluster1.qcpvo.mongodb.net/Students?retryWrites=true&w=majority';
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
